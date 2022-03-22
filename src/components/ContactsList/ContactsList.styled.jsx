@@ -11,6 +11,9 @@ padding: 3px;
 border: 1px solid gray;
 border-radius: 3px;
 float: right;
+&:hover {
+    background-color: lightblue;
+}
 `
 export const ContactItem = styled.li`
 padding: 0;

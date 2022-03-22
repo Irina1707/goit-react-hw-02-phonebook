@@ -23,6 +23,8 @@ outline: none;
 export const Button = styled.button`
 width: 100px;
 outline: none;
+border: 1px solid gray;
+border-radius: 3px;
 &:hover {
     background-color: lightblue;
 }
